@@ -1,0 +1,37 @@
+body{
+    background-color: aquamarine;
+    height: 100vh;
+}
+
+.menu {
+    background-color: white;
+}
+
+a{
+    color: rgb(1, 83, 83);
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.site-title {
+    text-align: center;
+    color:whitesmoke;
+}
+
+.site-subtitle{
+    text-align: center;
+    color:whitesmoke;
+    font-style: italic;
+}
+
+.menu ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu li {
+    list-style: none;
+}
